@@ -1,0 +1,49 @@
+
+This is the Instruction manual for the Digital Forensic Toolkit- Mobview.
+
+Failing to comply with the instruction will result in the Malfunction of the tool
+
+
+							/////////// ABOUT \\\\\\\\\\\\\\
+ This is an Open source Software created as the Project for my 3rd year disertation. This aim of this tool is aid an
+ forensic investigator, with the extraction and analysis of data from an android mobile phones. For the reserach con-
+ ducted i found that an android phone, mostly stored its valuable information such as call, contacts, messages and oth
+ er app data inside the /data/data folder in .db and .sqlite file types. also with the research conducted i found out
+ that this information can be extracted from the device.
+ This tool helps an investigator with ther investigation by giving the examiner an easy to use interface to work with
+ when handling the data that has been extracted from an android phone. the tool is able to analyse the .db files and 
+ then extract only the valuable information from them files and display to the user. this saves an examiner alot of
+ time and effort as the information has been gathered and displayed in an effective manner. 
+
+
+						     //////////  INSTRUCTIONS MANUAL \\\\\\\\\\
+ 
+ ########### Previosuly Imaged Phone #############
+ 
+ 1. If the Data has been already extracted from the device, then store the files inside a Folder
+ 2. Select the folder where the data is stored, from the "Select Folder" option in the "Welcome Screen" or type it manually in the given text field
+ 3. Click Proceed to move on to the Database Viewer screen where you can explore the imaged data
+ 
+ 
+ ########## Imaging a Live Mobile Phone ##############
+ 
+ 
+ 1. If you wish to Extract data from a Live mobile Phone, the phone must have root access
+ 2. The phone must have USB debugging enabled and allowed on the Running System(computer)
+ 3. The PC/Computer must have a copy of the "Minimal ADB and Fastboot" software downloaded and installed
+ 4. If not please download it from the provided link (" http://forum.xda-developers.com/showthread.php?t=2317790 ")
+ 5. Once the above citeria's are met you are set to use the tool.
+ 6. To image the files simply Click "image Files" button on the welcome screen
+ 7. please allow some time for the files to be extracted, You should be able to see the within the phone the data been extracted
+ 8. The file Path for the extracted Data will be automatically added to the path
+ 9. Click Proceed to proceed to the Database Viewer Screen, where you can explore the imaged data
+ 
+ 
+  ########## Possible Errors ##############
+  
+  1. if the specifed path for a particular folder is not correct, the tool might not work properly
+  2. If the the files extracted from the phone is saved in a different name, the tool will not work 
+ 
+ 
+ @@@ tool Created By Anoop Selvin Final year student Studying Computer Forensic, under the supervision of Majdi Owda
+			
